@@ -10,6 +10,7 @@
     "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js"
   },
   "dependencies": {
+    "ecstatic": "^3.2.0",
     "vue": "^2.0.1",
     "vue-feather-icons": "^4.5.0"
   },
